@@ -1,0 +1,1 @@
+concrete SecundaSwe of Secunda = SecundaLexSwe, SecundaRulesSwe ;
