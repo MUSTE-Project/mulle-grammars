@@ -1,4 +1,4 @@
-GFMAKE = gf --make --gf-lib-path=gf-rgl
+GFMAKE = gf --make
 LANGS = Lat Eng Swe
 GRAMMARS = Prima.pgf Secunda.pgf
 
@@ -10,11 +10,11 @@ build: $(GRAMMARS)
 
 clean:
 	rm $(GRAMMARS)
-	rm *.gfo
+	rm */*.gfo
 
-%.pgf: %*.gf
+%.pgf: %/*.gf
 	@echo Updated GF files: $?
-	$(GFMAKE) $(LANGS:%=$*%.gf)
+	$(GFMAKE) $(LANGS:%=$*/$*%.gf)
 	@touch $@
 
 # The line "@touch $@" is because if the PGF is not changed since previous version,
