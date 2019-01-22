@@ -1,4 +1,4 @@
---# -path=prelude:abstract:common:api
+--# -path=prelude:abstract:common:api:../Prima
 incomplete concrete SecundaRulesI of SecundaRules = Cat **
   open Syntax, PrimaRules in {
 

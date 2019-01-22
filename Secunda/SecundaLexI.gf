@@ -1,4 +1,4 @@
---# -path=prelude:abstract:common:api
+--# -path=prelude:abstract:common:api:../Prima
 incomplete concrete SecundaLexI of SecundaLex = Cat **
   open Structural, Lexicon, PrimaLex in {
 

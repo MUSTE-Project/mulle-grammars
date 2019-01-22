@@ -1,4 +1,4 @@
---# -path=prelude:abstract:common:api:english
+--# -path=prelude:abstract:common:api:english:../Prima
 concrete SecundaLexEng of SecundaLex = CatEng ** SecundaLexI
   with (Structural=StructuralEng), (Lexicon=LexiconEng), (PrimaLex=PrimaLexEng) **
   open ParadigmsEng, (I=IrregEng), (D=DictEng), Prelude in {

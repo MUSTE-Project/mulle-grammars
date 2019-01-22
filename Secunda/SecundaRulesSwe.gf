@@ -1,4 +1,4 @@
---# -path=prelude:abstract:common:api:scandinavian:swedish
+--# -path=prelude:abstract:common:api:scandinavian:swedish:../Prima
 concrete SecundaRulesSwe of SecundaRules = CatSwe ** SecundaRulesI
   with (Syntax=SyntaxSwe), (PrimaRules=PrimaRulesSwe) ** open (R=ResSwe), Prelude, ParamX, CommonScand in {
   lincat CS = SS ;

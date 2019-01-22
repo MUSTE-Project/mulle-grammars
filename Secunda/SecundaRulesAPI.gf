@@ -1,4 +1,4 @@
---# -path=prelude:abstract:common:api
+--# -path=prelude:abstract:common:api:../Prima
 concrete SecundaRulesAPI of SecundaRules = SecundaLexAPI ** open Prelude, PrimaRulesAPI in {
   lincat
     S, CN, VP, NP, Cl, AP, CS = SS;

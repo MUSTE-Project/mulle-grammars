@@ -1,4 +1,4 @@
---# -path=prelude:abstract:common:api:latin
+--# -path=prelude:abstract:common:api:latin:../Prima
 concrete SecundaRulesLat of SecundaRules = CatLat ** SecundaRulesI
   with (Cat=CatLat),(Syntax=SyntaxLat),(PrimaRules=PrimaRulesLat)  ** open ExtraLat,ResLat,Prelude,TenseX in {
 lincat

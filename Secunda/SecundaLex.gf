@@ -1,4 +1,4 @@
---# -path=prelude:abstract:common:api
+--# -path=prelude:abstract:common:api:../Prima
 abstract SecundaLex = Cat ** {
 
 fun
