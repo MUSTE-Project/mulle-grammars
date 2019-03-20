@@ -5,7 +5,9 @@ This repository contains the MULLE Novo Modo grammars:
 - `Tertia/Tertia*.gf`: the third lesson
 - `Quarta/Quarta*.gf`: the fourth lesson
 
-To build the PGF grammars, just run `make`.
+To build the PGF grammars, just set the correct RGL_SRC_PATH and run `make`.
+You can do that e.g. by running `RGL_SRC_PATH=/path/to/rgl make`. By default
+it assumes the path to be in `../gf-rgl`.
 
 (Note: The `Tertia` and `Quarta` grammars do not wirk yet)
 
