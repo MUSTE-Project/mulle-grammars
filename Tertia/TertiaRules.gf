@@ -8,11 +8,13 @@ abstract TertiaRules = Cat ** {
     usePN : PN -> NP ;
     useCNdefsg : CN -> NP ;
     attribCN : AP -> CN -> CN ;
-    complCN : CN -> VP ;
     simpleCl : NP -> VP -> Cl ;
     useCl : Cl -> S ;
     useS : S -> CS ;
-    -- Tertia
-    useSsvo : S -> CS ;
+    -- -- Tertia
+    useS : S -> CS ;
+    useSInv : S -> CS ;
+    adjPN : AP -> PN -> NP ;
     uttNP : NP -> CS ;
+    complCN : CN -> VP ;
 }

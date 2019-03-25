@@ -6,7 +6,7 @@ incomplete concrete TertiaRulesI of TertiaRules = Cat ** open Syntax,Extra,Prima
     usePN = PrimaRules.usePN ;
     useCNdefsg = PrimaRules.useCNdefsg ;
     attribCN = PrimaRules.attribCN ;
-    complCN = PrimaRules.complCN ;
+--    complCN = PrimaRules.complCN ;
     simpleCl = PrimaRules.simpleCl ;
     useCl = PrimaRules.useCl ;
 }

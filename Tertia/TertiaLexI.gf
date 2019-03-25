@@ -1,11 +1,11 @@
---# -path=prelude:abstract:common:api
+--# -path=prelude:abstract:common:api:../Prima:../Secunda
 incomplete concrete TertiaLexI of TertiaLex = Cat ** open Structural,Lexicon,PrimaLex,SecundaLex in {
   lin
     Gallia_PN = PrimaLex.Gallia_PN ; -- Prima
     etiam_Adv = SecundaLex.etiam_Adv ; -- Secunda
     longus_A = Lexicon.long_A ;
     latus_A = Lexicon.broad_A ;
-    ubi_Adv = Structural.where_IAdv ;
+--    ubi_Adv = Structural.where_IAdv ;
     in_Prep = Structural.in_Prep ;
     nunc_Adv = Lexicon.now_Adv ;
     Roma_PN = SecundaLex.Roma_PN ;

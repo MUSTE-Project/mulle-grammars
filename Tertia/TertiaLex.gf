@@ -66,5 +66,9 @@ abstract TertiaLex = Cat ** {
     cunctus_A : A ;
     tristis_A : A ;
     certe_Adv : Adv ;
+
+    -- other
+    Europa_PN : PN ;
+    Italia_PN : PN ;
 }
       

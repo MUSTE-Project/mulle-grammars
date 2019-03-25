@@ -1,4 +1,4 @@
---# -path=prelude:abstract:common:api:latin
+--# -path=prelude:abstract:common:api:latin:../Prima:../Secunda
 concrete TertiaLexLat of TertiaLex = CatLat ** TertiaLexI with (Cat=CatLat),(Structural=StructuralLat),(Lexicon=LexiconLat),(PrimaLex=PrimaLexLat),(SecundaLex=SecundaLexLat) ** open ParadigmsLat,ResLat in {
   lin
     -- p41
@@ -42,12 +42,14 @@ concrete TertiaLexLat of TertiaLex = CatLat ** TertiaLexI with (Cat=CatLat),(Str
     calathus_N = mkN "calathus" ;
     putridus_A = mkA "putridus" ;
     donum_N = mkN "donum" ;
-    omnis_A = { s = \\_ => table { Ag g n c => Structural.every_Det.s ! g ! c } } ;  -- Det?
+--    omnis_A = { s = \\_ => table { Ag g n c => Structural.every_Det.s ! g ! c } } ;  -- Det?
     diligenter_Adv = mkAdv "diligenter" ;
     maculare_V2 = mkV2 ( mkV "maculare" ) ;
     mox_Adv = mkAdv "mox" ;
     cunctus_A = mkA "cunctus" ;
     tristis_A = mkA "tristis" "tristis" ;
     certe_Adv = mkAdv "certe" ;
+    Europa_PN = mkPN (mkN "Europa" ) ;
+    Italia_PN = mkPN (mkN "Italia" ) ;
 }
  
