@@ -8,5 +8,5 @@ lincat CS = SS ;
 lin
   --    ppartAP v2 = PastPartAP (lin VP (mkVPSlash (lin V2 v2)));
   useS s = ss (combineSentence s ! SPreO ! PreV ! CPreV ! SOV) ;
-
+  useAdvS adv s = ss (combineSentence (advS adv s) ! SPreS ! PreV ! CPreV ! SOV) ;
 }
