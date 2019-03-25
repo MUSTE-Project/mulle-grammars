@@ -25,5 +25,5 @@ fun
   transV : V2 -> NP -> VP ;
   complVA : VA -> AP -> VP ;
   useS : S -> CS ;
-
+  useAdvS : Adv -> S -> CS ;
 }
