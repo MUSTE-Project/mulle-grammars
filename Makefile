@@ -5,7 +5,7 @@ endif
 GFMAKE = gf --make
 LANGS = Lat Eng Swe
 LANGUAGES = api latin english swedish
-GRAMMARS = Prima Secunda # Tertia Quarta
+GRAMMARS = Prima Secunda Tertia # Quarta
 
 .PHONY: all clean
 
