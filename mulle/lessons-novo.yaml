@@ -20,7 +20,7 @@
       source: "the father is lucky"
     - target: "Augustus imperator est"
       source: "Augustus is a friend"
-    - target: "Agustus amicus est"
+    - target: "Augustus amicus est"
       source: "Augustus is the emperor"
     - target: "Augustus imperator est"
       source: "Augustus is the father"
