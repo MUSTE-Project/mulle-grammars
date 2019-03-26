@@ -7,5 +7,5 @@ lincat CS = SS ;
 lin
   --    ppartAP v2 = { s = \\_ => v2.s ! VPPart ; isPre = True } ;
   useS s = s ;
-
+  useAdvS a s = useS (advS a s) ; 
 }
