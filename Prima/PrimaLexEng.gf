@@ -13,7 +13,7 @@ lin
 
   imperium_N = mkN "empire" "empires" ;
   Romanus_A = mkA "Roman" ;
-  imperator_N = mkN "imperator" ;
+  imperator_N = mkN "emperor" ;
   civitas_N = mkN "society" "societies" ;
   externus_A = compoundA (mkA "foreign") ;
   vincere_V2 = mkV2 (mkV "conquer" "conquers" "conquered" "conquered" "conquering") ;

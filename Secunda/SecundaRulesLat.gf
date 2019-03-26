@@ -11,7 +11,7 @@ lin
       vp.imp ! (VImp1 pron.pers.n) ++
       vp.obj ++
       vp.compl ! Ag pron.pers.g pron.pers.n Acc ++ vp.adv ;
-    neg =  \\_ => [] ; o = \\_ => [] ; v = \\_ => [] ;
+    neg =  \\_ => [] ; o = \\_ => [] ; v = \\_,_ => [] ;
     p = PPos ;
     t = TPres ;
     sadv = []
@@ -24,7 +24,7 @@ lin
     let vv2v : VV -> V = \vv' -> lin V vv'
     in lin VP (mkVP (vv2v vv)) ;
 
-  useS s = lin CS {s = combineSentence s ! SPreS ! PreV ! SOV} ;
+  useS s = lin CS {s = combineSentence s ! SPreS ! PreV ! CPreV ! SOV} ;
   -- these are the possible options for
   -- the (sentence) adverb position and sentence order:
   -- ! (SPreS | SPreV | SPreO | SPreNeg)
