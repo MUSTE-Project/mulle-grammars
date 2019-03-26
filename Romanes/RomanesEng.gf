@@ -11,7 +11,7 @@ concrete RomanesEng of Romanes = CatEng ** open Prelude, ParamX, ResEng,Paradigm
     Romani_DatPl_N = { s = \\_,_ => Romani_N.s ! Pl ! Nom ; g = Romani_N.g } ;
     Romani_AccPl_N = { s = \\_,_ => Romani_N.s ! Pl ! Nom ; g = Romani_N.g } ;
     Romani_AblPl_N = { s = \\_,_ => nonExist ; g = Romani_N.g } ;
-    domus_NomSg_N = { s = \\_,_ => domus_N.s ! Sg ! Nom ; g = domus_N.g } ;
+    domus_NomSg_N = { s = \\_,_ => nonExist ; g = domus_N.g } ; -- domus_N.s ! Sg ! Nom ; g = domus_N.g } ;
     domus_GenSg_N = { s = \\_,_ => domus_N.s ! Sg ! Gen ; g = domus_N.g } ;
     domus_DatSg_N = { s = \\_,_ => domus_N.s ! Sg ! Nom ; g = domus_N.g } ;
     domus_AccSg_N = { s = \\_,_ => domus_N.s ! Sg ! Nom ; g = domus_N.g } ;
