@@ -1,7 +1,7 @@
 - name: "Prima"
   key: 1
   search-options:
-    size: 6
+    size: 4
   settings:
     highlight-matches: on
     randomize-exercise-order: yes
@@ -70,7 +70,7 @@
 - name: "Romanes"
   key: 42
   search-options:
-    size: 7
+    size: 3
   settings:
     highlight-matches: on
   grammar: "../Romanes.pgf"
