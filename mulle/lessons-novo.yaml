@@ -1,0 +1,83 @@
+- name: "Prima"
+  key: 1
+  search-options:
+    size: 6
+  settings:
+    highlight-matches: on
+    randomize-exercise-order: yes
+  grammar: "grammars/novo/Prima.pgf"
+  languages:
+    target: "PrimaLat"
+    source: "PrimaEng"
+  exercises:
+    - target: "vinum sapiens est"
+      source: "he is wise"
+    - target: "Augustus imperium tenet"
+      source: "the emperor holds the empire"
+    - target: "Augustus felix est"
+      source: "the friend is lucky"
+    - target: "Augustus felix est"
+      source: "the father is lucky"
+    - target: "Augustus imperator est"
+      source: "Augustus is a friend"
+    - target: "Agustus amicus est"
+      source: "Augustus is the emperor"
+    - target: "Augustus imperator est"
+      source: "Augustus is the father"
+    - target: "Augustus pater est"
+      source: "Augustus is the emperor"
+    - target: "Caesar Augustus Galliam vincit"
+      source: "the emperor Augustus conquers Africa"
+    - target: "Caesar Augustus Africam vincit"
+      source: "the emperor Augustus conquers Gaul"
+
+- name: "Secunda"
+  key: 2
+  search-options:
+    size: 6
+  settings:
+    highlight-matches: on
+    randomize-exercise-order: yes
+  grammar: "grammars/novo/Secunda.pgf"
+  languages:
+    target: "SecundaLat"
+    source: "SecundaEng"
+  exercises:
+    - target: "feminae non manebant"
+      source: "the Roman women stayed"
+    - target: "libri orbi olim pulchri esse volebant"
+      source: "the children suddenly wanted to be big"
+    - target: "iuvenis manere nolebat"
+      source: "the Roman children wanted to stay"
+    - target: "igitur Romani gaudia Italica invitabant"
+      source: "perhaps the Romans even invited Italic joys"
+    - target: "etiam gaudium non veniebat"
+      source: "suddenly the beautiful joy comes"
+#- name: "Tertia"
+#  key: 3
+#  search-options:
+#    size: 7
+#  settings:
+#    highlight-matches: on
+#    randomize-exercise-order: yes
+#  grammar: "grammars/novo/Tertia.pgf"
+#  languages:
+#    target: "TertiaLat"
+#    source: "TertiaEng"
+#  exercises:
+#    - target: "vinum sapiens est"
+#      source: "he is wise"
+- name: "Romanes"
+  key: 42
+  search-options:
+    size: 7
+  settings:
+    highlight-matches: on
+  grammar: "grammars/novo/Romanes.pgf"
+  languages:
+    target: "RomanesLat"
+    source: "RomanesEng"
+  exercises:
+    - target: "Romanes eunt domus"
+      source: "Romans go home"
+
