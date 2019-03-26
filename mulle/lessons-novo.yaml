@@ -5,7 +5,7 @@
   settings:
     highlight-matches: on
     randomize-exercise-order: yes
-  grammar: "grammars/novo/Prima.pgf"
+  grammar: "../Prima.pgf"
   languages:
     target: "PrimaLat"
     source: "PrimaEng"
@@ -38,7 +38,7 @@
   settings:
     highlight-matches: on
     randomize-exercise-order: yes
-  grammar: "grammars/novo/Secunda.pgf"
+  grammar: "../Secunda.pgf"
   languages:
     target: "SecundaLat"
     source: "SecundaEng"
@@ -60,7 +60,7 @@
 #  settings:
 #    highlight-matches: on
 #    randomize-exercise-order: yes
-#  grammar: "grammars/novo/Tertia.pgf"
+#  grammar: "../Tertia.pgf"
 #  languages:
 #    target: "TertiaLat"
 #    source: "TertiaEng"
@@ -73,7 +73,7 @@
     size: 7
   settings:
     highlight-matches: on
-  grammar: "grammars/novo/Romanes.pgf"
+  grammar: "../Romanes.pgf"
   languages:
     target: "RomanesLat"
     source: "RomanesEng"
