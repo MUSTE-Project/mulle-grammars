@@ -9,4 +9,5 @@ incomplete concrete TertiaRulesI of TertiaRules = Cat ** open Syntax,Extra,Prima
 --    complCN = PrimaRules.complCN ;
     simpleCl = PrimaRules.simpleCl ;
     useCl = PrimaRules.useCl ;
+    complCN cn = mkVP (lin CN cn);
 }
