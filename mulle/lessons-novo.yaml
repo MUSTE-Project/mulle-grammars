@@ -1,10 +1,10 @@
 - name: "Prima"
   key: 1
   search-options:
-    size: 4
+    size: 3
   settings:
     highlight-matches: on
-    randomize-exercise-order: yes
+    randomize-exercise-order: no
   grammar: "../Prima.pgf"
   languages:
     target: "PrimaLat"
@@ -31,13 +31,46 @@
     - target: "Caesar Augustus Africam vincit"
       source: "the emperor Augustus conquers Gaul"
 
-- name: "Secunda"
+- name: "Prima English"
   key: 2
   search-options:
-    size: 6
+    size: 3
   settings:
     highlight-matches: on
-    randomize-exercise-order: yes
+    randomize-exercise-order: no
+  grammar: "../Prima.pgf"
+  languages:
+    source: "PrimaLat"
+    target: "PrimaEng"
+  exercises:
+    - source: "vinum sapiens est"
+      target: "he is wise"
+    - source: "Augustus imperium tenet"
+      target: "the emperor holds the empire"
+    - source: "Augustus felix est"
+      target: "the friend is lucky"
+    - source: "Augustus felix est"
+      target: "the father is lucky"
+    - source: "Augustus imperator est"
+      target: "Augustus is a friend"
+    - source: "Augustus amicus est"
+      target: "Augustus is the emperor"
+    - source: "Augustus imperator est"
+      target: "Augustus is the father"
+    - source: "Augustus pater est"
+      target: "Augustus is the emperor"
+    - source: "Caesar Augustus Galliam vincit"
+      target: "the emperor Augustus conquers Africa"
+    - source: "Caesar Augustus Africam vincit"
+      target: "the emperor Augustus conquers Gaul"
+
+- name: "Secunda"
+  key: 3
+  search-options:
+    size: 3
+  settings:
+    highlight-matches: on
+    randomize-exercise-order: no
   grammar: "../Secunda.pgf"
   languages:
     target: "SecundaLat"
@@ -50,23 +83,46 @@
     - target: "iuvenis manere nolebat"
       source: "the Roman children wanted to stay"
     - target: "igitur Romani gaudia Italica invitabant"
-      source: "perhaps the Romans even invited Italic joys"
+      source: "perhaps the Romans invited Italic joys"
     - target: "etiam gaudium non veniebat"
       source: "suddenly the beautiful joy comes"
-#- name: "Tertia"
-#  key: 3
-#  search-options:
-#    size: 7
-#  settings:
-#    highlight-matches: on
-#    randomize-exercise-order: yes
-#  grammar: "../Tertia.pgf"
-#  languages:
-#    target: "TertiaLat"
-#    source: "TertiaEng"
-#  exercises:
-#    - target: "vinum sapiens est"
-#      source: "he is wise"
+- name: "Secunda English"
+  key: 4
+  search-options:
+    size: 3
+  settings:
+    highlight-matches: on
+    randomize-exercise-order: no
+  grammar: "../Secunda.pgf"
+  languages:
+    source: "SecundaLat"
+    target: "SecundaEng"
+  exercises:
+    - source: "feminae non manebant"
+      target: "the Roman women stayed"
+    - source: "libri orbi olim pulchri esse volebant"
+      target: "the children suddenly wanted to be big"
+    - source: "iuvenis manere nolebat"
+      target: "the Roman children wanted to stay"
+    - source: "igitur Romani gaudia Italica invitabant"
+      target: "perhaps the Romans invited Italic joys"
+    - source: "etiam gaudium non veniebat"
+      target: "suddenly the beautiful joy comes"
+
+- name: "Tertia"
+  key: 5
+  search-options:
+    size: 5
+  settings:
+    highlight-matches: on
+    randomize-exercise-order: yes
+  grammar: "../Tertia.pgf"
+  languages:
+    target: "TertiaLat"
+    source: "TertiaEng"
+  exercises:
+    - target: "Britannia est insula"
+      source: "Sweden is a peninsula"
 - name: "Romanes"
   key: 42
   search-options:
