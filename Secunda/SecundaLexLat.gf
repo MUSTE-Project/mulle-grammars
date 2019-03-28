@@ -71,6 +71,6 @@ lin
 oper
   liber : N =
     -- let sg = ParadigmsLat.mkN "filius" ; pl = mkN "liber" "liberi" masculine in
-    let sg = M.noun "filius" ; pl = M.noun_ngg "liber" "libri" masculine in
+    let sg = M.noun "puer" ; pl = M.noun_ngg "liber" "libri" masculine in
     lin N { s = table { Sg => sg.s ! Sg ; Pl => pl.s ! Pl } ; g = sg.g } ;
 }
