@@ -1,0 +1,1 @@
+abstract TertiaTest = Lang-[in_Prep], TertiaLex;

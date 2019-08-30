@@ -1,0 +1,1 @@
+concrete TertiaRulesSwe of TertiaRules = CatSwe ** TertiaRulesI with (Cat=CatSwe),(Syntax=SyntaxSwe),(PrimaRules=PrimaRulesSwe);

@@ -1,0 +1,1 @@
+concrete TertiaLexSwe of TertiaLex = CatSwe ** TertiaLexI with (Cat=CatSwe),(Structural=StructuralSwe),(Lexicon=LexiconSwe),(PrimaLex=PrimaLexSwe),(SecundaLex=SecundaLexSwe);
