@@ -1,0 +1,1 @@
+concrete LatinLesson2RulesSwe of LatinLesson2Rules = LatinLesson1RulesSwe ** LatinLesson2RulesI with (Syntax=SyntaxSwe) ;
