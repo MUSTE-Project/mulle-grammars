@@ -3,7 +3,11 @@ concrete LatinLesson1LexEng of LatinLesson1Lex = CatEng ** LatinLesson1LexI with
     Claudia_PN = mkPN (mkN "Claudia") ;
     Aurelia_PN = mkPN (mkN "Aurelia") ;
     slave_F_N = mkN "slave" ;
-    eat_V = mkV "eat" ;
+    daughter_N = mkN "daughter" ;
+    mother_N = mkN "mother" ;
     work_V = mkV "work" ;
-    study_V = mkV "study" ;
+    approach_V = mkV "approach" ;
+    go_away_V = partV (Lexicon.go_V) "away" ;
+    rest_V = mkV "rest" ;
+    walk_V = Lexicon.walk_V ;
 }
