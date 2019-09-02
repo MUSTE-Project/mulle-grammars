@@ -14,8 +14,7 @@ all: build
 build: $(GRAMMAR:%=%.pgf)
 
 clean:
-	rm $(GRAMMAR:%=%.pgf)
-	rm *.gfo
+	rm -f $(GRAMMAR:%=%.pgf) *.gfo
 
 %.pgf: *.gf
 	@echo Updated GF files: $?

@@ -4,9 +4,8 @@ endif
 
 GFMAKE = gf --make
 LANGS = Lat Eng # Swe
-RGL_INCLUDES = api latin english swedish
-GRAMMAR_INCLUDES = NovoModoPrima
-GRAMMAR = Secunda
+RGL_INCLUDES = api latin english
+GRAMMAR = Romanes
 
 .PHONY: all clean
 
@@ -19,5 +18,5 @@ clean:
 
 %.pgf: *.gf
 	@echo Updated GF files: $?
-	$(GFMAKE) $(RGL_INCLUDES:%=-i $(RGL_SRC_PATH)%) $(GRAMMAR_INCLUDES:%=-i ../%) $(LANGS:%=$*%.gf)
+	$(GFMAKE) $(RGL_INCLUDES:%=-i $(RGL_SRC_PATH)%) $(LANGS:%=$*%.gf)
 	@touch $@

@@ -1,5 +1,5 @@
 GFMAKE = gf --make
-LANGS = Eng Swe Spa Chi Ara Test
+LANGS = Eng Swe Spa Chi Ara # Test
 GRAMMARS = Exemplum.pgf
 
 .PHONY: all clean
@@ -9,7 +9,7 @@ all: build
 build: $(GRAMMARS)
 
 clean:
-	rm $(GRAMMARS)
+	rm -f $(GRAMMARS)
 	rm *.gfo
 
 %.pgf: %*.gf
