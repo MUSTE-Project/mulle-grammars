@@ -3,25 +3,25 @@ concrete TertiaLexLat of TertiaLex = CatLat ** TertiaLexI with (Cat=CatLat),(Str
   lin
     -- p41
     antiquus_A = mkA "antiquus" ;
-    Sicilia_PN = mkPN (mkN "Sicilia" ) ;
+    Sicilia_PN = mkPN (mkN "Sicilia" ) Sg;
     insula_N = mkN "insula" ;
-    Britannia_PN = mkPN ( mkN "Britannia" ) ;
-    Germania_PN = mkPN ( mkN "Germania" ) ;
-    Suecia_PN = mkPN ( mkN "Suecia" ) ;
+    Britannia_PN = mkPN ( mkN "Britannia" ) Sg ;
+    Germania_PN = mkPN ( mkN "Germania" ) Sg ;
+    Suecia_PN = mkPN ( mkN "Suecia" ) Sg ;
     paeninsula_N = mkN "paeninsula" ;
-    Hispania_PN = mkPN ( mkN "Hispania" ) ;
-    Graecia_PN = mkPN ( mkN "Graecia" ) ;
+    Hispania_PN = mkPN ( mkN "Hispania" ) Sg ;
+    Graecia_PN = mkPN ( mkN "Graecia" ) Sg ;
     Britannus_N = mkN "Britannus" ;
     Suecus_N = mkN "Suecus" ;
 
     -- p42
-    neque_Conj = mkConj "neque" "neque" Sg Neither ; -- ???
+--    neque_Conj = mkConj "neque" "neque" Sg Neither ; -- ???
     
     -- -- p43
     gerere_V2 = mkV2 (mkV "gerere" "gero" "gessi" "gessum" ) ;
     bulla_N = mkN "bulla" ;
     curare_V = mkV "curare" ;
-    quod_Conj = mkConj "" "quod" Sg Because ; -- ???
+--    quod_Conj = mkConj "" "quod" Sg Because ; -- ???
     defendere_V = mkV "defendere" "defondo" "defendi" "defensum" ;
     serva_N = mkN "serva" ;
     matrona_N = mkN "matrona" ;
@@ -49,7 +49,7 @@ concrete TertiaLexLat of TertiaLex = CatLat ** TertiaLexI with (Cat=CatLat),(Str
     cunctus_A = mkA "cunctus" ;
     tristis_A = mkA "tristis" "tristis" ;
     certe_Adv = mkAdv "certe" ;
-    Europa_PN = mkPN (mkN "Europa" ) ;
-    Italia_PN = mkPN (mkN "Italia" ) ;
+    Europa_PN = mkPN (mkN "Europa" ) Sg ;
+    Italia_PN = mkPN (mkN "Italia" ) Sg ;
 }
  

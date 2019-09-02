@@ -17,13 +17,13 @@ lin
   saepe_Adv = mkAdv "saepe" ;    
   provincia_N = mkN "provincia" ;    
   devenire_V2 = mkV2 (mkV "devenire") Nom_Prep;    
-  Gallia_PN = mkPN (mkN "Gallia") ;
-  Africa_PN = mkPN (mkN "Africa") ;
+  Gallia_PN = mkPN (mkN "Gallia") Sg ;
+  Africa_PN = mkPN (mkN "Africa") Sg ;
   Germanus_N = mkN "Germanus" ;
   hostis_N = mkN "hostis" "hostis" masculine ;
   dicere_V = mkV "dicere" "dico" "dixi" "dictum" ;
 
-  Augustus_PN = mkPN (mkN "Augustus") ;
+  Augustus_PN = mkPN (mkN "Augustus") Sg ;
   Caesar_N = (mkN "Caesar" "Caesaris" masculine) ;
 
   laetus_A = mkA "laetus" ;

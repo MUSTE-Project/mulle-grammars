@@ -18,7 +18,7 @@ lin
   -- alius_A = mkA (mkN "alius") (mkN "alia") (mkN "aliud" "alius" neuter) ;
   quoque_Adv = mkAdv "quoque";
   populus_N = mkN "populus" ;
-  Italia_PN = mkPN (mkN "Italia") ;
+  Italia_PN = mkPN (mkN "Italia") Sg ;
   colere_V2 = mkV2 ( mkV "colere" "colo" "colui" "cultum" ) ;
   Sabinus_N = mkN ( "Sabinus" | "Sabina" ) ;
   Sabinus_A = mkA "Sabinus" ;
@@ -39,7 +39,7 @@ lin
   fallax_A = mkA "fallax";
   festivitas_N = mkN "festivitas" "festivitatis" feminine ;
   praeparare_V2 = mkV2 (mkV "praeparare");
-  Roma_PN = mkPN (mkN "Roma" );
+  Roma_PN = mkPN (mkN "Roma" ) Sg ;
   invitare_V2 = mkV2 (mkV "invitare");
   gaudere_V = mkV "gaudere" ; -- semi-deponent
   causa_N = mkN "causa" ;
