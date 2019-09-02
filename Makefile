@@ -5,7 +5,7 @@ endif
 GFMAKE = gf --make
 LANGS = Lat Eng # Swe
 LANGUAGES = api latin english swedish
-GRAMMAR_DIRS = NovoModoPrima NovoModoSecunda MontyPythonRomanes # NovoModoTertia Quarta
+GRAMMAR_DIRS = NovoModoPrima NovoModoSecunda NovoModoTertia MontyPythonRomanes LatinLesson1 LatinLesson2 # Quarta
 
 .PHONY: all clean $(GRAMMAR_DIRS)
 
