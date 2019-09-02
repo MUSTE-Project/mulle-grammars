@@ -1,0 +1,1 @@
+abstract LatinLesson1 = LatinLesson1Lex, LatinLesson1Rules ; 

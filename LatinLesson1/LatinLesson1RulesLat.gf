@@ -1,0 +1,1 @@
+concrete LatinLesson1RulesLat of LatinLesson1Rules = CatLat ** LatinLesson1RulesI with (Syntax=SyntaxLat) ;
