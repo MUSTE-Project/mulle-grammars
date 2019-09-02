@@ -3,7 +3,7 @@ RGL_SRC_PATH = ../gf-rgl/src/
 endif
 
 GFMAKE = gf --make
-LANGS = Lat Eng # Swe
+LANGS = Lat Eng Swe
 RGL_INCLUDES = api latin english swedish
 GRAMMAR = LatinLesson1
 
