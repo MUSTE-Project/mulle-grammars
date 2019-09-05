@@ -3,137 +3,123 @@
   search-options:
     size: 3
   settings:
-    highlight-matches: on
+    highlight: matches
 #    randomize-exercise-order: no
-  grammar: "../Prima.pgf"
+  grammar: "NovoModoPrima"
   languages:
-    target: "PrimaLat"
-    source: "PrimaEng"
+    solution: "PrimaLat"
+    problem: "PrimaEng"
   exercises:
-    - target: "vinum sapiens est"
-      source: "he is wise"
-    - target: "Augustus imperium tenet"
-      source: "the emperor holds the empire"
-    - target: "Augustus felix est"
-      source: "the friend is lucky"
-    - target: "Augustus felix est"
-      source: "the father is lucky"
-#    - target: "Augustus imperator est"
-#      source: "Augustus is a friend"
-#    - target: "Augustus amicus est"
-#      source: "Augustus is the emperor"
-#    - target: "Augustus imperator est"
-#      source: "Augustus is the father"
-#    - target: "Augustus pater est"
-#      source: "Augustus is the emperor"
-#    - target: "Caesar Augustus Galliam vincit"
-#      source: "the emperor Augustus conquers Africa"
-#    - target: "Caesar Augustus Africam vincit"
-#      source: "the emperor Augustus conquers Gaul"
+    - solution: "vinum sapiens est"
+      problem: "he is wise"
+    - solution: "Augustus imperium tenet"
+      problem: "the emperor holds the empire"
+    - solution: "Augustus felix est"
+      problem: "the friend is lucky"
+    - solution: "Augustus felix est"
+      problem: "the father is lucky"
+#    - solution: "Augustus imperator est"
+#      problem: "Augustus is a friend"
+#    - solution: "Augustus amicus est"
+#      problem: "Augustus is the emperor"
+#    - solution: "Augustus imperator est"
+#      problem: "Augustus is the father"
+#    - solution: "Augustus pater est"
+#      problem: "Augustus is the emperor"
+#    - solution: "Caesar Augustus Galliam vincit"
+#      problem: "the emperor Augustus conquers Africa"
+#    - solution: "Caesar Augustus Africam vincit"
+#      problem: "the emperor Augustus conquers Gaul"
 
 - name: "Prima English"
   key: 2
   search-options:
     size: 3
   settings:
-    highlight-matches: on
+    highlight: matches
 #    randomize-exercise-order: no
-  grammar: "../Prima.pgf"
+  grammar: "NovoModoPrima"
   languages:
-    source: "PrimaLat"
-    target: "PrimaEng"
+    problem: "PrimaLat"
+    solution: "PrimaEng"
   exercises:
-    - source: "vinum sapiens est"
-      target: "he is wise"
-    - source: "Augustus imperium tenet"
-      target: "the emperor holds the empire"
-#    - source: "Augustus felix est"
-#      target: "the friend is lucky"
-#    - source: "Augustus felix est"
-#      target: "the father is lucky"
-#    - source: "Augustus imperator est"
-#      target: "Augustus is a friend"
-#    - source: "Augustus amicus est"
-#      target: "Augustus is the emperor"
-#    - source: "Augustus imperator est"
-#      target: "Augustus is the father"
-#    - source: "Augustus pater est"
-#      target: "Augustus is the emperor"
-#    - source: "Caesar Augustus Galliam vincit"
-#      target: "the emperor Augustus conquers Africa"
-#    - source: "Caesar Augustus Africam vincit"
-#      target: "the emperor Augustus conquers Gaul"
+    - problem: "vinum sapiens est"
+      solution: "he is wise"
+    - problem: "Augustus imperium tenet"
+      solution: "the emperor holds the empire"
+#    - problem: "Augustus felix est"
+#      solution: "the friend is lucky"
+#    - problem: "Augustus felix est"
+#      solution: "the father is lucky"
+#    - problem: "Augustus imperator est"
+#      solution: "Augustus is a friend"
+#    - problem: "Augustus amicus est"
+#      solution: "Augustus is the emperor"
+#    - problem: "Augustus imperator est"
+#      solution: "Augustus is the father"
+#    - problem: "Augustus pater est"
+#      solution: "Augustus is the emperor"
+#    - problem: "Caesar Augustus Galliam vincit"
+#      solution: "the emperor Augustus conquers Africa"
+#    - problem: "Caesar Augustus Africam vincit"
+#      solution: "the emperor Augustus conquers Gaul"
 
 - name: "Secunda"
   key: 3
   search-options:
     size: 3
   settings:
-    highlight-matches: on
+    highlight: matches
 #    randomize-exercise-order: no
-  grammar: "../Secunda.pgf"
+  grammar: "NovoModoSecunda"
   languages:
-    target: "SecundaLat"
-    source: "SecundaEng"
+    solution: "SecundaLat"
+    problem: "SecundaEng"
   exercises:
-#    - target: "feminae non manebant"
-#      source: "the Roman women stayed"
-#    - target: "libri orbi olim pulchri esse volebant"
-#      source: "the children suddenly wanted to be big"
-    - target: "iuvenis manere nolebat"
-      source: "the Roman children wanted to stay"
-#    - target: "igitur Romani gaudia Italica invitabant"
-#      source: "perhaps the Romans invited Italic joys"
-    - target: "etiam gaudium non veniebat"
-      source: "suddenly the beautiful joy comes"
+#    - solution: "feminae non manebant"
+#      problem: "the Roman women stayed"
+#    - solution: "libri orbi olim pulchri esse volebant"
+#      problem: "the children suddenly wanted to be big"
+    - solution: "iuvenis manere nolebat"
+      problem: "the Roman children wanted to stay"
+#    - solution: "igitur Romani gaudia Italica invitabant"
+#      problem: "perhaps the Romans invited Italic joys"
+    - solution: "etiam gaudium non veniebat"
+      problem: "suddenly the beautiful joy comes"
 - name: "Secunda English"
   key: 4
   search-options:
     size: 3
   settings:
-    highlight-matches: on
+    highlight: matches
     randomize-exercise-order: no
-  grammar: "../Secunda.pgf"
+  grammar: "NovoModoSecunda"
   languages:
-    source: "SecundaLat"
-    target: "SecundaEng"
+    problem: "SecundaLat"
+    solution: "SecundaEng"
   exercises:
-    - source: "feminae non manebant"
-      target: "the Roman women stayed"
-    - source: "libri orbi olim pulchri esse volebant"
-      target: "the children suddenly wanted to be big"
-    - source: "iuvenis manere nolebat"
-      target: "the Roman children wanted to stay"
-    - source: "igitur Romani gaudia Italica invitabant"
-      target: "perhaps the Romans invited Italic joys"
-    - source: "etiam gaudium non veniebat"
-      target: "suddenly the beautiful joy comes"
+    - problem: "feminae non manebant"
+      solution: "the Roman women stayed"
+    - problem: "libri orbi olim pulchri esse volebant"
+      solution: "the children suddenly wanted to be big"
+    - problem: "iuvenis manere nolebat"
+      solution: "the Roman children wanted to stay"
+    - problem: "igitur Romani gaudia Italica invitabant"
+      solution: "perhaps the Romans invited Italic joys"
+    - problem: "etiam gaudium non veniebat"
+      solution: "suddenly the beautiful joy comes"
 
 - name: "Tertia"
   key: 5
   search-options:
     size: 5
   settings:
-    highlight-matches: on
+    highlight: matches
     randomize-exercise-order: yes
-  grammar: "../Tertia.pgf"
+  grammar: "NovoModoTertia"
   languages:
-    target: "TertiaLat"
-    source: "TertiaEng"
+    solution: "TertiaLat"
+    problem: "TertiaEng"
   exercises:
-    - target: "Britannia est insula"
-      source: "Sweden is a peninsula"
-- name: "Romanes"
-  key: 42
-  search-options:
-    size: 3
-  settings:
-    highlight-matches: on
-  grammar: "../Romanes.pgf"
-  languages:
-    target: "RomanesLat"
-    source: "RomanesEng"
-  exercises:
-    - target: "Romanes eunt domus"
-      source: "Romans go home"
-
+    - solution: "Britannia est insula"
+      problem: "Sweden is a peninsula"
