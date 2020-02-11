@@ -1,1 +1,3 @@
-abstract LatinLesson1 = LatinLesson1Lex, LatinLesson1Rules ; 
+abstract LatinLesson1 = LatinLesson1Lex, LatinLesson1Rules ** {
+    flags startcat = CS ;
+} ;
