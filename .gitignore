@@ -1,3 +1,5 @@
 *.gfo
 *.pgf
-rgl/
+*~
+gf-rgl/
+test/
