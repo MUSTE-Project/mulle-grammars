@@ -1,16 +1,16 @@
 GFMAKE = gf --make
-LANGS = Eng Swe Spa Chi Ara # Test
-GRAMMARS = Exemplum.pgf
+LANGS = Eng Swe Spa Chi Ara Ita # Test
+GRAMMAR = Exemplum.pgf
 
 .PHONY: all clean
 
 all: build
 
-build: $(GRAMMARS)
+build: $(GRAMMAR)
 
 clean:
-	rm -f $(GRAMMARS)
-	rm *.gfo
+	rm -f $(GRAMMAR)
+	rm -f *.gfo
 
 %.pgf: %*.gf
 	@echo Updated GF files: $?
