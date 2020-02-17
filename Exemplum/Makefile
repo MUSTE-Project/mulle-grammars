@@ -1,20 +1,20 @@
 GFMAKE = gf --make
 LANGS = Eng Swe Spa Chi Ara Ita # Test
-GRAMMAR = Exemplum.pgf
+GRAMMARS = $(LANGS:%=Exemplum%.pgf)
 
 .PHONY: all clean
 
 all: build
 
-build: $(GRAMMAR)
+build: $(GRAMMARS)
 
 clean:
-	rm -f $(GRAMMAR)
+	rm -f $(GRAMMARS)
 	rm -f *.gfo
 
 %.pgf: %*.gf
 	@echo Updated GF files: $?
-	$(GFMAKE) $(LANGS:%=$*%.gf)
+	$(GFMAKE) -n $(subst .pgf,,$@) $^
 	@touch $@
 
 # The line "@touch $@" is because if the PGF is not changed since previous version,
